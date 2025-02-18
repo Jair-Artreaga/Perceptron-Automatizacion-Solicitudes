@@ -71,7 +71,7 @@ print("Solicitud aprobada" if resultado == 1 else "Solicitud rechazada")
 ```
 ## Estructura del Proyecto
 ```
-📂 Ordenamiento-Pytho
+📂 Perceptron-Automatizacion-Solicitudes
 │── 📂 data  # Datos generados para las pruebas
 │── 📂 results  # Resultados y análisis
 │── 📄 README.md  # Documentación del proyecto
