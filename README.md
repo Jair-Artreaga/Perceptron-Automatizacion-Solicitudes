@@ -69,6 +69,15 @@ nuevos_datos = scaler.transform(nuevos_datos)
 resultado = activation_function(np.dot(nuevos_datos, weights) + bias)
 print("Solicitud aprobada" if resultado == 1 else "Solicitud rechazada")
 ```
+## Estructura del Proyecto
+```
+📂 Ordenamiento-Pytho
+│── 📂 data  # Datos generados para las pruebas
+│── 📂 results  # Resultados y análisis
+│── 📄 README.md  # Documentación del proyecto
+│── 📄 Implementacion_Perceptron.ipynb  # Implementación en Jupyter Notebook
+```
+
 ## Requisitos
 Para ejecutar el proyecto, necesitas tener instalado:
 - **Python 3.x**
